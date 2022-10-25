@@ -1,6 +1,8 @@
 [
     {
-        "VOCABLE"         : "hunt",
+        "VOCABLE"         : [ { "verb" : "hunt" },
+                              { "noun" : "hunt" }
+                            ],
         "SUPPORT_TEXT"    : [ { "verb" : [ "pursue and kill (a wild animal) for sport or food",
                                            "search determinedly for someone or something" ]},
                               { "noun" : [ "an act of hunting wild animals or game",
