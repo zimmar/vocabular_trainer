@@ -19,9 +19,18 @@
                             ]  
     },
     {
-        "VOCABLE"         : "hunter",
-        "SUPPORT_TEXT"    : " www",
-        "SAMPLE_SENTENCE" : " w",
-        "TRANSLATION"     : " www"
+        "VOCABLE"         : [ { "adjective" : "afraid" },
+                              { "noun" :      "afraid" },
+                              { "verb" :      "to be afraid"} ],
+        "SUPPORT_TEXT"    : [ { "adjective" : [ "feeling fear or anxiety; frightened",
+                                                " "]},
+                              { "noun" : [ " " ] }],
+        "SAMPLE_SENTENCE" : [ { "adjective" : [ "I'm afraid of dogs",
+                                                "The woman was afraid of what she saw." ]},
+                              { "noun" : [ " ",
+                                             " " ] }],
+        "TRANSLATION"     : [ { "adjective" : [ "ängstlich", "ängstliche" ] },
+                              { "noun" : [ "Angst" ] }
+                                ]
     }
 ]
