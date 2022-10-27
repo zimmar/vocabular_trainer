@@ -1,4 +1,6 @@
-# vocabular_trainer
+vocabular_trainer
+#################
+
 Vokabel Trainer für English oder andere Sprachen.
 
 :Author: Martin Zimmermann
@@ -8,19 +10,22 @@ Vokabel Trainer für English oder andere Sprachen.
 
 .. sectnum::
 
-## Was ist der "Vokabel Trainer"
+Was ist der "Vokabel Trainer"
+=============================
 
 
-### Merkmale
+Merkmale
+--------
 - Geschrieben in Phython
 - Einfach zu Installieren
 - Schnell
 - Einfach zu erweitern.
 
-## Installation
+Installation
+============
 
-Option: Installing aus dem Source Code (nur wenn es benbötigt wird.)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Option: Installing aus dem Source Code (nur wenn es benötigt wird.)
+-------------------------------------------------------------------
 
 .. code:: bash
 
@@ -29,6 +34,6 @@ Option: Installing aus dem Source Code (nur wenn es benbötigt wird.)
     $pip install -r requirements.txt
     $python main.
 
-## Vokabel Datei
-
+Vokabel Datei
+=============
 
