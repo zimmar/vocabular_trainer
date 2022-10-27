@@ -2,9 +2,15 @@
 import json
 import os
 
+from utils.version import RELEASE, VERSION
+
 
 class Vocable:
     """ Hilsklasse zum Arbeiten mit Vokabeln """
+
+    __version__ = VERSION
+    __release__ = RELEASE
+    __author__ = "Martin Zimmermann"
     
     def __init__(self, filename):
         """ Einlesen der Vokabeldatei """
@@ -51,6 +57,10 @@ class Vocable:
 class History:
     """ Klasse die den Verlauf des Vokabeltest festhält. 
     """
+    __version__ = VERSION
+    __release__ = RELEASE
+    __author__ = "Martin Zimmermann"
+        
     _queue = []    
 
     def __init__(self):

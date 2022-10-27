@@ -1,0 +1,27 @@
+[
+   {
+      "VOCABLE"         : "adventure",
+      "SUPPORT_TEXT"    : "An adventure is a fun or exiciting thing that you do.",
+      "SAMPLE_SENTENCE" : [ 
+         "Riging in the rough water was an adventure"
+      ],
+      "TRANSLATION"     : ["Abenteuer"]
+   },
+   {
+      "VOCABLE"         : "approach",
+      "SUPPORT_TEXT"    : "To approach something means to move close to it",
+      "SAMPLE_SENTENCE" : [ 
+         "The boy approached his school."
+      ],
+      "TRANSLATION"     : ["abschliessen", "beenden"]
+   },
+   {
+      "VOCABLE"         : "carfully",
+      "SUPPORT_TEXT"    : "You use well to say that something was done in a good way.",
+      "SAMPLE_SENTENCE" : [ 
+          "The couple can dance quite well."
+      ],
+      "TRANSLATION"     : ["gut", "Nun?", "Na?"]
+   }
+
+]
