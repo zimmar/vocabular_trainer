@@ -1,0 +1,36 @@
+[
+    {
+        "VOCABLE"         : [ { "verb" : "hunt" },
+                              { "noun" : "hunt" }
+                            ],
+        "SUPPORT_TEXT"    : [ { "verb" : [ "pursue and kill (a wild animal) for sport or food",
+                                           "search determinedly for someone or something" ]},
+                              { "noun" : [ "an act of hunting wild animals or game",
+                                           "a search" ] }
+                            ],
+                                
+        "SAMPLE_SENTENCE" : [ { "verb" : [ "in the autumn they hunted deer", 
+                                           "he desperately hunted for a new job" ] },
+                              { "noun" : [ "a bear-hunt", 
+                                           "police launched a hunt for the killer" ] }
+                            ],
+        "TRANSLATION"     : [ { "verb" : [ "jagen", "suchen" ] },
+                              { "noun" : [ "Jagd", "Suche" ] }
+                            ]  
+    },
+    {
+        "VOCABLE"         : [ { "adjective" : "afraid" },
+                              { "noun" :      "afraid" },
+                              { "verb" :      "to be afraid"} ],
+        "SUPPORT_TEXT"    : [ { "adjective" : [ "feeling fear or anxiety; frightened",
+                                                " "]},
+                              { "noun" : [ " " ] }],
+        "SAMPLE_SENTENCE" : [ { "adjective" : [ "I'm afraid of dogs",
+                                                "The woman was afraid of what she saw." ]},
+                              { "noun" : [ " ",
+                                             " " ] }],
+        "TRANSLATION"     : [ { "adjective" : [ "ängstlich", "ängstliche" ] },
+                              { "noun" : [ "Angst" ] }
+                                ]
+    }
+]

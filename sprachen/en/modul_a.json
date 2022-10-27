@@ -1,0 +1,109 @@
+[
+    {
+        "VOCABLE": "afraid",
+        "SUPPORT_TEXT": "When someone is afraid, they feel fear.",
+        "SAMPLE_SENTENCE": [
+            "The woman was afraid of what she saw." 
+        ],
+        "TRANSLATION": [ "Angst", "ängstlich", "ängstliche" ]
+    },
+    {
+        "VOCABLE": "agree",
+        "SUPPORT_TEXT": "To agree is to say, 'yes' or to think the same way.",
+        "SAMPLE_SENTENCE": [
+            "A: The food is very good in that restaurant.",
+            "B: I agree with you"
+        ],
+        "TRANSLATION": [ "Zustimmen", "einverstanden", "stimmen", "zu stimmen" ]
+    },
+    {
+        "VOCABLE": "angry",
+        "SUPPORT_TEXT": "When someone is angry, they may want to speak loudly or fight.",
+        "SAMPLE_SENTENCE": [
+            "She didn?t do her homework, so her father is angry."
+        ],
+        "TRANSLATION": [ "wütend" ]
+    },
+    {
+        "VOCABLE": "arrive",
+        "SUPPORT_TEXT": "To arrive is to get to or reach some place.",
+        "SAMPLE_SENTENCE": [
+            "The bus always arrives at the corner of my street at 4:00"
+        ],
+        "TRANSLATION": [ "ankommen", "eintreffen" ]
+    },
+    {
+        "VOCABLE": "attack",
+        "SUPPORT_TEXT": "To attack is to try to fight or to hurt.",
+        "SAMPLE_SENTENCE" : [
+            "The man with the sword attacked the other man first."
+        ],
+        "TRANSLATION" : [ "angreifen", "Angriff", "anzugreifen" ]
+    },
+    {
+        "VOCABLE": "bottom",
+        "SUPPORT_TEXT": "The bottom is the lowest part.",
+        "SAMPLE_SENTENCE" : [
+            "The bottom of my shoe has a hole in it."
+        ],
+        "TRANSLATION" : [ "unten", "Boden", "Unterseite" ]
+    },
+    {
+        "VOCABLE": "clever",
+        "SUPPORT_TEXT": "When someone is clever, they can solve a hard puzzle or problem.",
+        "SAMPLE_SENTENCE" : [
+            "The clever boy thought of a good idea."
+        ],
+        "TRANSLATION" : [ "schlau", "clever", "klug", "geschickt" ]
+    },
+    {
+        "VOCABLE": "cruel",
+        "SUPPORT_TEXT": "When someone is cruel, they do bad things to hurt others.",
+        "SAMPLE_SENTENCE" : [
+            "The cruel man yelled at his sister."
+        ],
+        "TRANSLATION": [ "grausam", "Grausamkeit" ]
+    },
+    {
+        "VOCABLE": "finally",
+        "SUPPORT_TEXT": "If something happens finally, it happens after a longtime or at the end.",
+        "SAMPLE_SENTENCE" : [
+            "He finally crossed the finish line after five hours of running."
+        ],
+        "TRANSLATION": [ "schließlich", "endlich" ]
+    },
+    {
+        "VOCABLE": "hide",
+        "SUPPORT_TEXT": "To hide is to try not to let others see you.",
+        "SAMPLE_SENTENCE": [
+            "The other children will hide while you count to 100."
+        ],
+        "TRANSLATION": [ "ausblenden", "verbergen", "verstecken" ]
+    },
+    {
+        "VOCABLE" : "hunt",
+        "SUPPORT_TEXT": "To hunt is to look for or search for an animal to kill.",
+        "SAMPLE_SENTENCE" : [
+            "Long ago, people hunted with bows and arrows."
+        ],
+        "TRANSLATION" : ["Jagen"]
+    },
+    {
+        "VOCABLE" : "lot",
+        "SUPPORT_TEXT": "A lot means as large number or amount of people, animal, things, etc.",
+        "SAMPLE_SENTENCE" : [
+            "There are a lot of apples in the basket."
+        ],
+        "TRANSLATION" : ["viel", "menge"]
+    },
+    {
+        "VOCABLE" : "middle",
+        "SUPPORT_TEXT": "The middle of something is the center or halfway point.",
+        "SAMPLE_SENTENCE" : [
+            "The Canadian flag has a maple leaf in the middle of it."
+        ],
+        "TRANSLATION" : ["Mitte", "Zentrum"]
+    }
+]
+
+
