@@ -1,0 +1,13 @@
+[
+    {
+        "QUESTION" : "What is the story about?",
+        "ANSWER" : ["A: How a clever rabbit tricked a cruel lion.",
+                    "B: How rabbits learned to hide from lions.",
+                    "C: How a rabbit pleased an angry lion.",
+                    "D: How to be safe when you hunt in the forest."
+                ],
+        "SUCCESS": "A"
+    },
+
+    
+]

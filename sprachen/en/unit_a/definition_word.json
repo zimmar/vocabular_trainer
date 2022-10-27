@@ -1,0 +1,22 @@
+[
+    {
+        "PART A" : [{
+            "SENTENSE": "bad or hurting others",
+            "answer": [ "a. afraid", "b. clever", "c. cruel", "d. hunt"],
+            "success": "a"
+        },
+        {
+            "SENTENSE": "at last or at the end",
+            "answer": [ "a. angry", "b. clever", "c. finally", "d. reply"],
+            "success": "c"
+           
+        }
+
+        ]
+    },
+    {
+        "PART B": [{
+            "WORT": "ANGRY",
+            "DEFINITION": ["", "", "", ""]
+        }]    }
+]

@@ -1,90 +1,42 @@
-from encodings.utf_8 import encode
-import json
 import os
 import random
+import argparse
 
-class Vocable:
-    
-    def __init__(self, filename):
-        if filename is not None and os.path.exists(filename):
-            with open(filename) as fl:
-                self.data = json.load(fl)
-        else:
-            self.data = None
-            
-    def __repr__(self):
-        return(json.dumps(self.data, indent=4))
-    
-    def count(self) -> int:
-        return len(self.data)
-    
-    def _find_word(self, index: int, getvalue: str):
-        return self.data[index][getvalue]
-        
-    def get_vocable(self, index: int) -> str:
-        return  self.data[index]['VOCABLE']
-    
-    def get_tip(self, index: int) -> str:
-        return self.data[index]['SUPPORT_TEXT']
-    
-    def get_sample(self, index: int) -> str:
-         return self.data[index]['SAMPLE_SENTENCE']
-
-    def get_translation(self, index: int) -> str:
-        return self._find_word(index, 'TRANSLATION')
-
-    def check(self, antwort: str, index: int) -> bool:
-        rc = False
-        ck = self._find_word(index, 'TRANSLATION')
-
-        if antwort in ck:
-            rc = True
-        return rc
-
-class History:
-    """ Klasse die den Verlauf des Vokabeltest festhält. 
-    """
-    _queue = []    
-
-    def __init__(self):
-        self._queue = []
-
-    def save(self, index: int, points: int):
-        p = {}
-        p[index] = points
-        self._queue.append(p)
-
-    def get_entry(self, index):
-        return (self._queue[index])
-
-    def info(self):
-        return self._queue
-
-    def is_ready(self, index):
-        for i in range(len(self._queue)):
-            if index in self._queue[i]:
-                return True
-        return False
-
-    def count(self):
-        return (len(self._queue))
-
-    def __repr__(self):
-        return self._queue
+from utils import Vocable
+from utils import History
 
 
 def vokabel_test(filename):
+    """ Vokabel Test durchführen.
+
+        Alle Vokabeln werden in zufälliger Reihenfolge abgefragt.
+        Zu jeder Vokabel wird ein Punktestand festgehalten.
+        Die Maximal Punkte erhält man, wenn die Lösung direkt mit der Vokabeldarstellung gelöst wird.
+        Ein Punkt abzug erhält man, wenn mehr Hilfeleistung angezeigt wird.
+        0 Punkte wenn die Übersetzung angezeigt werden muss.
+    
+        Parameters:
+        -----------
+
+        filename: str
+            Qualifizierter Dateiname der Vokabeldatei.
+
+        Returns
+        -------
+        :None:
+
+    """
      # Laufvariablen
     alle_vokabeln: bool = False # Wurden alle Vokabeln abgearbeitet
-    neue_zufalls_zahl: bool = True
-    punkte: int = 0
+    neue_zufalls_zahl: bool = True # FLag 
+    punkte: int = 0 # erreichte Punkte je durchlauf neu
 
     # Todo: Auswahl des Vokabel Datei festlegen.
     vokabel = Vocable(filename)
     history = History() # für jede Vokabel wird der erreicht Punkte stand festgehalten zur
                         # Späteren analyse
     
-    max_punkte = 5 * vokabel.count()
+    max_punkte = 5 * vokabel.count() # Maximal zu erreichende Punkte.
     
     # Durchlaufe alle Vokabeln
     while alle_vokabeln == False:
@@ -147,14 +99,21 @@ def vokabel_test(filename):
                     gesamt_punkte += value
             print("Sie habe %s Punkte von %s Punkten erreicht." % (gesamt_punkte, max_punkte))
 
+
 def vokabel_training(filename):
+    """ Vokabel Training
+        Alle Vokabeln werden nacheinander ausgegeben. 
+        Es werden alle Informationen zur Vokabel ausgeben.
+        Anschließend die Übersetzung.
+        
+    """
     vokabel = Vocable(filename)
 
     for i in range(vokabel.count()):
-
+        print("\n\n")
         print("==> %15s : %s\n" % (vokabel.get_vocable(i), vokabel.get_tip(i)))
         for x in vokabel.get_sample(i):
-            print("%s" % x)
+            print("    %15s   %s" % (" ", x))
         print("\n")
         antwort = input("Weiter mit Return: ")
         print("\n")
@@ -162,13 +121,23 @@ def vokabel_training(filename):
 
 
 
-def main():
-   vokabel_training("modul_a.json")
-
-
 if __name__ == '__main__':
-    main()
 
+    parser = argparse.ArgumentParser(description="Vokabel Training")
+    parser.add_argument("-t", "--test", action="store_false", help="Vokabel Test durchführen.")
+    parser.add_argument("-p", "--praxis", action="store_false", help="Vokabel Praxis durchlaufen.")
+    parser.add_argument("-m", "--modul", default="vocabular.json", help="Modulname")
+    parser.add_argument("-l", "--language", default='en', help="Sprachauswahl")
+
+    args = parser.parse_args(['-t'])
+
+    print(args)
+    
+    if args.test:
+        vokabel_training(os.path.join('sprachen/en/unit_a', args.modul))
+
+    if args.praxis:
+        vokabel_test(os.path.join('sprachen/en/unit_a', args.modul))
 
 
     

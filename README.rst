@@ -1,11 +1,14 @@
-vocabular_trainer
+Vocabular Trainer
 #################
+
+**Work in progress. If you'd like to help, please do. There's a lot of work to
+be done.**
 
 Vokabel Trainer für English oder andere Sprachen.
 
 :Author: Martin Zimmermann
 
-.. contents::
+.. contents:: 
     :backlist: none
 
 .. sectnum::
@@ -20,14 +23,13 @@ Zum Erlernen der Vokabeln gibt es 3 Modi.
 * Vertiefung
 * Test
 
-Im Training werden die Vokabeln mit mit jeweils mit einem Kontenttext und
-Beispieltext ausgegeben.
-Anschließend die Übersetzung.
+Im Training werden die Vokabeln mit ein Kontenttext und Beispieltext ausgegeben.
+Anschließend erfolgt Übersetzung.
 
 Im Vertiefungsteil wird die Vokabel und der Kontenttext angezeigt und 
 anschließend Beispieltext und Übersetzung.
 
-Im Testmodi wird die Vokabel (in zufääliger Reihenfolge), der Kontenttext und der Beispieltext hinternander
+Im Testmodi wird die Vokabel (in zufälliger Reihenfolge), der Kontenttext und der Beispieltext hinternander
 Angezeit. Mit jedem Schritt erhält man die Möglichkeit die Übersetzung einzugeben.
 Ist die Übersetzung korrekt, dann folgt Automatisch die nächste Vokabel vom Modul.
 Wurden alle Vokabeln abgearbeitet, dann wird eine Zusammenfassung der Vokabeln mit einem Punktestand angzeigt 

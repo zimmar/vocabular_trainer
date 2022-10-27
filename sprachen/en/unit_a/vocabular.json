@@ -5,7 +5,7 @@
         "SAMPLE_SENTENCE": [
             "The woman was afraid of what she saw." 
         ],
-        "TRANSLATION": [ "Angst", "ängstlich", "ängstliche" ]
+        "TRANSLATION": [ "Angst", "?ngstlich", "?ngstliche" ]
     },
     {
         "VOCABLE": "agree",
@@ -22,7 +22,7 @@
         "SAMPLE_SENTENCE": [
             "She didn?t do her homework, so her father is angry."
         ],
-        "TRANSLATION": [ "wütend" ]
+        "TRANSLATION": [ "w?tend" ]
     },
     {
         "VOCABLE": "arrive",
@@ -70,7 +70,7 @@
         "SAMPLE_SENTENCE" : [
             "He finally crossed the finish line after five hours of running."
         ],
-        "TRANSLATION": [ "schließlich", "endlich" ]
+        "TRANSLATION": [ "schlie?lich", "endlich" ]
     },
     {
         "VOCABLE": "hide",
@@ -103,6 +103,62 @@
             "The Canadian flag has a maple leaf in the middle of it."
         ],
         "TRANSLATION" : ["Mitte", "Zentrum"]
+    },
+    {
+        "VOCABLE"         : "moment",
+        "SUPPORT_TEXT"    : "A moment is a second or a very short time.",
+        "SAMPLE_SENTENCE" : [ 
+            "I was only a few moments late for the meeting."
+        ],
+        "TRANSLATION"     : ["Moment", "Augenblick"]
+    },
+    {
+        "VOCABLE"         : "pleased",
+        "SUPPORT_TEXT"    : "When someone is pleased, they are happy.",
+        "SAMPLE_SENTENCE" : [ 
+            "She was pleased with the phone call she recieved-"
+        ],
+        "TRANSLATION"     : ["zufrieden", "erfreut", "befriedigt"]
+    },
+    {
+        "VOCABLE"         : "promise",
+        "SUPPORT_TEXT"    : "To promise is to say you will do something for sure.",
+        "SAMPLE_SENTENCE" : [ 
+            "He promised to return my key by tomorrow."
+        ],
+        "TRANSLATION"     : ["versprechen", "zusagen", "sich verpflichten"]
+    },
+    {
+        "VOCABLE"         : "reply",
+        "SUPPORT_TEXT"    : "To reply is to give an answer or say back to someone.",
+        "SAMPLE_SENTENCE" : [ 
+            "She asked him what time his meeting was. He replied, 'at three'."
+        ],
+        "TRANSLATION"     : ["antworten", "erwidern", "entgegnen", "replizieren", "rückäußern"]
+    },
+    {
+        "VOCABLE"         : "safe",
+        "SUPPORT_TEXT"    : "When a person is safe, they are not in danger.",
+        "SAMPLE_SENTENCE" : [ 
+            "Put on your seat belt in the car to be safe."
+        ],
+        "TRANSLATION"     : ["sicher", "gefahrlos", "Schutz"]
+    },
+    {
+        "VOCABLE"         : "trick",
+        "SUPPORT_TEXT"    : "A trick is something you do to fool another person.",
+        "SAMPLE_SENTENCE" : [ 
+            "His card trick really supprised us."
+        ],
+        "TRANSLATION"     : ["austricksen", "betrügen","hereinlegen"]
+    },
+    {
+        "VOCABLE"         : "well",
+        "SUPPORT_TEXT"    : "You use well to say that something was done in a good way.",
+        "SAMPLE_SENTENCE" : [ 
+            "The couple can dance quite well."
+        ],
+        "TRANSLATION"     : ["gut", "Nun?", "Na?"]
     }
 ]
 
